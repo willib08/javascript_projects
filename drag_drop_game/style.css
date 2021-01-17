@@ -1,0 +1,190 @@
+body{
+	background-color: yellow;
+}
+
+ h1{
+ 	text-align: center;
+ 	justify-content: space-around;
+ 	letter-spacing: 5px;
+ 	font-family: chalkduster;
+ }
+
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+	/*display: flex;
+	justify-content: center;
+ 	font-family: "Comic Sans MS", cursive, sans-serif;
+ 	font-style: bold;*/
+
+
+.container2{
+	background-image: url("https://png.pngtree.com/58pic/32/72/76/88V58PICNzXb8g1b80sGi_PIC2018.jpg");
+
+	/*("https://image.freepik.com/free-vector/classroom-chalkboard-banner_1308-29485.jpg");*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 60vh;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-left: 55px;
+	display: grid;
+	grid-template-areas: 
+	"trapezoid1 rectangle1 circle1 square1";
+	width: 80%;
+	display: flex;
+	margin: auto;
+	/*display: grid;
+	grid-template-areas: 
+	"triangleDown1 rectangle1 circle1 square1";*/
+}
+
+
+.container{
+	display: grid;
+	grid-template-areas: 
+	"square trapezoid circle rectangle oval";
+	margin-left: 85px;
+	margin-right: 25px;
+}
+
+#square{
+	height: 70px;
+	width: 70px;
+	background-color: #555;
+	margin-top: 5px;
+	margin-left: 45px;
+	background-color: red;
+}
+
+#trapezoid {
+	border-bottom: 50px solid blue;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+	margin-top: 5px;
+}
+
+#circle{
+	height: 70px;
+	width: 70px;
+	background-color: purple;
+	border-radius: 70%;
+	margin-top: 5px;
+}
+#rectangle{
+	height: 50px;
+	width: 100px;
+	background-color: orange;
+	margin-top: 5px;
+}
+#oval{
+  height: 70px;
+  width: 125px;
+  background-color: green;
+  border-radius: 50%;
+  margin-top: 5px;
+  margine-right: 45px;
+}
+
+
+#square1{
+	height: 90px;
+	width: 90px;
+	background-color: white;
+	border-style: dashed;
+
+}
+
+#circle1{
+	height: 80px;
+	width: 80px;
+	border-radius: 80%;
+	margin-top: 5px;
+	background-color: white;
+	border-style: dashed;
+
+}
+/*why wont the border style change?*/
+#trapezoid1 {
+	border-bottom: 60px solid white;
+	border-left: 35px dashed transparent;
+	border-right: 35px dashed transparent;
+	height: 0;
+	width: 155px;
+	/*border-style: dashed;*/
+
+}
+
+
+#oval1 {
+  height: 80px;
+  width: 135px;
+  border-radius: 60%;
+  margin-top: 5px;
+  background-color: white;
+  border-style: dashed;
+
+}	
+
+#rectangle1{
+	height: 60px;
+	width: 110px;
+	margin-top: 5px;
+	background-color: white;
+	border-style: dashed;
+	
+}
+h3{
+	letter-spacing: 5px;
+ 	font-family: chalkduster;
+}
+.button {
+  justify-content: center;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-family: chalkduster;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+}

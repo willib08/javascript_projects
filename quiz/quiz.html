@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <div id="hd">
+                <div class="hd-item">
+                    <p id="progress" class="hd-pre">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="prgBarF"></div>
+                    </div>
+                </div>
+                <div class="hd-item">
+                    <p class="hd-pre">
+                        Score
+                    </p>
+                    <h1 class="hd-main-text" id="score">
+                        0
+                    </h1>
+            </div>        
+            </div>
+            <h1 id="question">What is the answer to this question?</h1>
+            <div class="option-container">
+                <p class="option-pre">A</p>
+                <p class="option-text" data-number="1">Option 1</p>                
+            </div>
+            <div class="option-container">
+                <p class="option-pre">B</p>
+                <p class="option-text" data-number="2">Option 2</p>                
+            </div>
+            <div class="option-container">
+                <p class="option-pre">C</p>
+                <p class="option-text" data-number="3">Option 3</p>                
+            </div>
+            <div class="option-container">
+                <p class="option-pre">D</p>
+                <p class="option-text" data-number="4">Option 4</p>                
+            </div>
+            <div class="option-container">
+                <p class="option-pre">E</p>
+                <p class="option-text" data-number="5">None</p>                
+            </div>
+            
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

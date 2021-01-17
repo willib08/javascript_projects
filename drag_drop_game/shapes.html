@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shape Sorter</title>
+    <link rel="stylesheet" type="text/css" href="/Users/annabuckles/Desktop/javascript/drag_drop_shapes/style.css">
+</head>
+<body>
+    <div>
+         <h1 class="ml6">
+  <span class="text-wrapper">
+  <span class="letters">SHAPE SORTER</span>
+  </span>
+</h1>
+<iframe src="music.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    </div>
+        <div class=container2>
+            <div id ="square1" ondrop= "dragDrop(event)"
+            ondragover= "allowDrop(event)"
+            ondragenter="allowEnter(event)"
+            ondragleave="allowLeave(event)"></div>
+             <div id ="circle1" ondrop= "dragDrop(event)"
+            ondragover= "allowDrop(event)"
+            ondragenter="allowEnter(event)"
+            ondragleave="allowLeave(event)" ></div>
+            <div id ="trapezoid1" ondrop= "dragDrop(event)"
+            ondragover= "allowDrop(event)"
+            ondragenter="allowEnter(event)"
+            ondragleave="allowLeave(event"></div>
+             <div id ="oval1" ondrop= "dragDrop(event)"
+            ondragover= "allowDrop(event)"
+            ondragenter="allowEnter(event)"
+            ondragleave="allowLeave(event)"></div>
+            <div id ="rectangle1" ondrop= "dragDrop(event)"
+            ondragover= "allowDrop(event)"
+            ondragenter="allowEnter(event)"
+            ondragleave="allowLeave(event)"></div>
+        </div>
+        </div>
+            <div class=container>
+            <div id="square" draggable="true"
+            ondragstart="dragStart(event)"
+            ></div>
+            <div id="trapezoid" draggable="true"
+            ondragstart="dragStart(event)"
+            ondragover="allowDrop(event)"
+            ondragleave="allowLeave(event)"></div>
+            <div id="circle" draggable="true"
+            ondragstart="dragStart(event)"
+            ondragover="allowDrop(event)"
+            ondragleave="allowLeave(event)" ></div>
+            <div id="rectangle" draggable="true"
+            ondragstart="dragStart(event)"
+            ondragover="allowDrop(event)"
+            ondragleave="allowLeave(event)"></div>
+            <div id="oval" draggable="true"
+            ondragstart="dragStart(event)"
+            ondragover="allowDrop(event)"
+            ondragleave="allowLeave(event)"></div>
+        </div>
+<script src="script.js"></script>
+</body>
+</html>
